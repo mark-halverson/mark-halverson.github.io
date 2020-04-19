@@ -1,0 +1,75 @@
+body
+    {background: #D5F5E3 url(img/lovedarts.jpg) no-repeat right top fixed;background-size:250px 270px;
+    font-family: sans-serif;}
+    table, th, td {
+            width: 50%;
+            border: 3px ridge black;
+            border-collapse: collapse;
+        }
+        td {
+            text-align: center;
+            font-style: Sans-serif;
+        }
+        td, th {
+            padding: 10px;
+        }
+        th {
+            letter-spacing: 3px;
+        }
+        #myrow, .emphasize {
+           font-weight: bold; color: red;
+        }
+       /* #myrow {
+            text-decoration: underline;
+        }*/
+        #mytf {
+            text-transform: capitalize;
+        }
+        
+        #myp { 
+            border: 10px inset #078017;
+            padding: 40px;
+            margin: 50px;
+            
+            background-color: #61FF33;
+            width: 400px;
+            height: 100px;
+            overflow: scroll;
+            
+            float: left;
+            
+            text-indent: 20px;
+            line-height: 200%;
+        }
+        #myimg, .myvideo {
+            border-color: #078017;
+            border-width: 20px;
+            border-style: outset;
+            margin: 18px;
+
+        }
+        #mytable {
+            position: center;
+            left: 75px;
+         
+         /*   position: fixed;
+            right: 200px;
+            bottom: 200px;
+         */   
+        }
+        tr:nth-child(even) {background-color: #E6FAF5;}
+
+    
+        #myimg {
+            z-index: -1;
+        }
+        #mytext {
+            position: relative;
+            top: 350px;
+            left: 50px;
+        }
+    
+        p{
+    width: 1000px;  
+    word-break: break;
+}
